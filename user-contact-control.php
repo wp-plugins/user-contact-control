@@ -47,7 +47,7 @@ function ucc_options_page() { ?>
 			<p><textarea name="user_contact_control" rows="10"><?php echo $labels; ?></textarea></p>
 			<p><?php 
 			printf(__('Use <code><a href="%s">get_user_meta</a></code> or <code><a href="%s">get_the_author_meta</a></code> to use these fields in your theme or plugin. ', 'user_contact_control'), 'http://codex.wordpress.org/Function_Reference/get_user_meta', 'http://codex.wordpress.org/Function_Reference/get_the_author_meta' ); 
-			_e('Your user meta keys are:');
+			_e('Your user meta keys are:', 'user_contact_control');
 			?>
 			</p>	
 			<p><?php echo $output; ?></p>
