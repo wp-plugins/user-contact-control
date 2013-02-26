@@ -1,0 +1,57 @@
+# Copyright (C) 2013 User Contact Control
+# This file is distributed under the same license as the User Contact Control package.
+msgid ""
+msgstr ""
+"Project-Id-Version: User Contact Control 1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/user-contact-control\n"
+"POT-Creation-Date: 2013-02-26 04:18:31+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2013-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#. #-#-#-#-#  plugin.pot (User Contact Control 1.0)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: user-contact-control.php:34
+msgid "User Contact Control"
+msgstr ""
+
+#: user-contact-control.php:46
+msgid "Enter one contact field label per line."
+msgstr ""
+
+#: user-contact-control.php:49
+msgid ""
+"Use <code><a href=\"%s\">get_user_meta</a></code> or <code><a href=\"%s"
+"\">get_the_author_meta</a></code> to use these fields in your theme or "
+"plugin. "
+msgstr ""
+
+#: user-contact-control.php:50
+msgid "Your user meta keys are:"
+msgstr ""
+
+#: user-contact-control.php:81
+msgid "Contact Control"
+msgstr ""
+
+#: user-contact-control.php:91
+msgid "Settings"
+msgstr ""
+
+#. #-#-#-#-#  plugin.pot (User Contact Control 1.0)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  plugin.pot (User Contact Control 1.0)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://stephanieleary.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Take control of the user profile's contact fields."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Stephanie Leary"
+msgstr ""
