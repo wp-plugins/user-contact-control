@@ -3,7 +3,7 @@ Contributors: sillybean
 Tags: user profiles, contact fields
 Requires at least: 2.9
 Tested up to: 3.5.1
-Stable tag: 1.0
+Stable tag: 1.0.1
 
 Provides a simple settings screen where administrators can edit the contact fields in the user profiles.
 

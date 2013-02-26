@@ -4,7 +4,7 @@ Plugin Name: User Contact Control
 Plugin URI: http://stephanieleary.com/
 Description: Take control of the user profile's contact fields.
 Author: Stephanie Leary
-Version: 1.0
+Version: 1.0.1
 Author URI: http://stephanieleary.com/
 */
 
@@ -15,8 +15,8 @@ function ucc_filter_contactmethod( $contactmethods ) {
 add_filter( 'user_contactmethods', 'ucc_filter_contactmethod', 10, 1 );
 
 function ucc_validate_options( $input ) {
-	$input = explode( "\n", $input );
-	foreach ( $input as $field ) {
+	$fields = explode( "\n", $input );
+	foreach ( $fields as $field ) {
 		$key = sanitize_key( trim( $field ) );
 		// back compat for original keys
 		if ( $key == 'jabbergoogletalk' )
@@ -36,11 +36,13 @@ function ucc_options_page() { ?>
 			<?php 
 			settings_fields( 'user_contact_control' );
 			$options = get_option( 'user_contact_control' );
-			$user_contactmethods = _wp_get_user_contactmethods(); 
+			$user_contactmethods = _wp_get_user_contactmethods();
 			$labels = $output = '';
-			foreach ($user_contactmethods as $key => $name) { 
-				$labels .= $name . "\n";
-				$output .= '<p><strong>'.$name.':</strong> <code>'.$key.'</code></p>';
+			if ($user_contactmethods) {
+				foreach ($user_contactmethods as $key => $name) { 
+					$labels .= $name . "\n";
+					$output .= '<p><strong>'.$name.':</strong> <code>'.$key.'</code></p>';
+				}
 			}
 			?>
 			<p><?php _e('Enter one contact field label per line.', 'user_contact_control'); ?></p>
