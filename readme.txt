@@ -13,3 +13,7 @@ Provides a simple settings screen where administrators can edit the contact fiel
 1. Extract the zip file and just drop the contents in the wp-content/plugins/ directory of your WordPress installation.
 2. Activate the plugin from Plugins page.
 3. Go to Settings -> Contact Control to edit your profile contact fields.
+
+== Screenshots ==
+
+1. The settings screen
