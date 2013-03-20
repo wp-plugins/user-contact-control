@@ -14,6 +14,7 @@ This plugin provides a simple interface for <a href="http://codex.wordpress.org/
 == Screenshots ==
 
 1. The settings screen
+2. The resulting fields in the user profiles
 
 == Installation ==
 
