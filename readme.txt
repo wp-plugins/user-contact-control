@@ -5,7 +5,7 @@ Donate link: http://stephanieleary.com/code/wordpress/user-contact-control/
 Text Domain: user_contact_control
 Domain Path: /languages
 Requires at least: 2.9
-Tested up to: 4.1
+Tested up to: 4.2
 Stable tag: 1.1
 
 Provides a simple settings screen where administrators can edit the contact fields in the user profiles.
